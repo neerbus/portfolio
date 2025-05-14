@@ -4,7 +4,7 @@ NPC.lua
 
 Kontext projektu:  
 
-Tento projekt bude horror-akční hra. Snažíme se o hru, která bude mít děsivou atmosféru, ale hráči budou mít k dispozici zbraně k sebe obraně. Možnost sebe obrany ubírá na strašidelnosti, a proto se snažím vytvořit npc systém, který by i přes zbraně byl stále děsivý a těžký k poražení. Zde popisuje jednu verzi tohoto systému, na které jsem pracoval pár měsíců. Tento projekt je stále v brzké fázi vytváření, takže ještě hodně plánuju a některé věci se mohou změnit. 
+Tento projekt bude horror-akční hra. Snažíme se o hru, která bude mít děsivou atmosféru, ale hráči budou mít k dispozici zbraně k sebe obraně. Možnost sebe obrany ubírá na strašidelnosti, a proto se snažím vytvořit npc systém, který by i přes zbraně byl stále děsivý a těžký k poražení. Zde popisuje jednu verzi tohoto systému, na které jsem pracoval pár měsíců. Tento projekt je stále v brzké fázi vytváření, takže ještě hodně plánuju a některé věci se mohou změnit. Zde jsou také zmíněna jměna jako showdow, hunt atd., to jsou jména útoků nebo chování npc.
 
 Účel popisovaného programu:  
 
