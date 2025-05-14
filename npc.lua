@@ -36,10 +36,12 @@ data.answer = {'answer', 'no'}
 
 data.firstFlag = {'firstFlag', false} -- pri prvni iteraci run se musi updatovat playerTargets
 data.recursionFlag = {'recursionFlag', false} -- na zastaveni recurse v run
-data.killFlag = {'killFlag', false} -- pokud se neco neobvykle posere -> komplet reset az k looking for player
+data.killFlag = {'killFlag', false} -- pokud se neco neobvykle poskazi -> komplet reset az k looking for player
 data.huntFlag = {'huntFlag', false} -- pokud je forced hunt
 data.showdownEnum = {'showdownEnum', 'inactive'} -- pokud je npc v showdownu (kontrola while loopu v emergency)
 data.runningEnum = {'runningEnum', 'inactive'} -- pokud je zrovna run aktivni + pokud npc umrelo
+
+-- komentare na veci, ktere musim dodelat + abych na ne nezapomnel
 
 -- po tom az bude tohle funkcni, tak otestovat jestli se targets ve run spravne updatuji
 -- otestovat jestli vsechny edge case veci funguji (killFlag)
