@@ -1,4 +1,7 @@
 # portfolio
+NPC.lua 
+ 
+
 Kontext projektu:  
 
 Tento projekt bude horror-akční hra. Snažíme se o hru, která bude mít děsivou atmosféru, ale hráči budou mít k dispozici zbraně k sebe obraně. Možnost sebe obrany ubírá na strašidelnosti, a proto se snažím vytvořit npc systém, který by i přes zbraně byl stále děsivý a těžký k poražení. Zde popisuje jednu verzi tohoto systému, na které jsem pracoval pár měsíců. Tento projekt je stále v brzké fázi vytváření, takže ještě hodně plánuju a některé věci se mohou změnit. 
@@ -48,3 +51,23 @@ Chybí dodělat několik malých detailů
  
 
 Na vývoji tohoto programu bylo nejtěžší kontrolovat rekurzi stromu + ovládání rekurze. Při vývoji se také dost vyskytli menší chyby, které se těžce hledali. Vývoj byl celkem obtížný kvůli své abstrakci. Teď to celkem funguje, ale ještě je toho dost na udělání. 
+
+
+ 
+LEETCODE.py 
+
+ 
+
+Popis problému:  
+
+Máme daný spojový seznam (linked list) a číslo k. Naším úkolem je otočit uzly spojového seznamu po skupinách k. Pokud zůstane méně než k uzlů na konci seznamu, mají zůstat stejné. 
+
+Stručný popis řešení: 
+
+ začneme procházet seznamem díky smyčce a ukládáme uzly do normálního seznamu. Až je délka normálního seznamu rovná k, pak jdeme přes normální list pozpátku a mění propojení daných uzlů. Potom vše propojíme k ostatním uzlům, a tak pokračujeme až do konce seznamu. Je zde samozřejmě hodně chytáků jako např. poslední uzel musí být správně připojen po otečení atd. 
+
+Tento problém je zatím můj nejtěžší a podařilo se mi ho vyřešit za hodinu. Setkal jsem se s divnými chybami jako MLE (moc použité paměti) se kterýma jsem si moc nevěděl rady, ale nakonec jsem to pochopil. 
+
+Statistiky:  
+
+runtime O(N) - 100%, memory O(k) - 86% 
