@@ -51,6 +51,7 @@ Chybí dodělat několik malých detailů
  
 
 Na vývoji tohoto programu bylo nejtěžší kontrolovat rekurzi stromu + ovládání rekurze. Při vývoji se také dost vyskytli menší chyby, které se těžce hledali. Vývoj byl celkem obtížný kvůli své abstrakci. Teď to celkem funguje, ale ještě je toho dost na udělání. 
+Jsem ochoten poslat video tohoto programu v akci nebo zaslání 2. programu, ale ten je delší (1200+ řádků).
 
 
  
